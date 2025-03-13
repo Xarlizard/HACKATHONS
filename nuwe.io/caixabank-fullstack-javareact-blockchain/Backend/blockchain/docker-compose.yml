@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  blockchain-app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/actuator/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    depends_on:
+      - mysql
+    networks:
+      - blockchain_network
+    restart: always
+
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: blockchain             
+      MYSQL_PASSWORD: root                   
+      MYSQL_ROOT_PASSWORD: root              
+    ports:
+      - "3306:3306"                          
+    networks:
+      - blockchain_network
+    restart: always
+
+networks:
+  blockchain_network:
+    driver: bridge

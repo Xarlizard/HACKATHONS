@@ -1,0 +1,64 @@
+{
+  "assets": [
+    {
+      "id": 1,
+      "name": "AAPL",
+      "type": "Stocks",
+      "value": 1500,
+      "dailyChange": 1.35,
+      "totalChange": 7.14,
+      "history": [
+        { "date": "2025-01-01", "value": 1400 },
+        { "date": "2025-01-02", "value": 1418.9 },
+        { "date": "2025-01-03", "value": 1437.9 },
+        { "date": "2025-01-04", "value": 1457.3 },
+        { "date": "2025-01-05", "value": 1500 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "BTC",
+      "type": "Crypto",
+      "value": 21000,
+      "dailyChange": 2.44,
+      "totalChange": 10.16,
+      "history": [
+        { "date": "2025-01-01", "value": 19000 },
+        { "date": "2025-01-02", "value": 19463.6 },
+        { "date": "2025-01-03", "value": 19937.6 },
+        { "date": "2025-01-04", "value": 20422.6 },
+        { "date": "2025-01-05", "value": 21000 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ETH",
+      "type": "Crypto",
+      "value": 4392.3,
+      "dailyChange": 10.0,
+      "totalChange": 46.41,
+      "history": [
+        { "date": "2025-01-01", "value": 3000 },
+        { "date": "2025-01-02", "value": 3300 },
+        { "date": "2025-01-03", "value": 3630 },
+        { "date": "2025-01-04", "value": 3993 },
+        { "date": "2025-01-05", "value": 4392.3 }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mutual Fund A",
+      "type": "Funds",
+      "value": 3000,
+      "dailyChange": 1.69,
+      "totalChange": 6.9,
+      "history": [
+        { "date": "2025-01-01", "value": 2800 },
+        { "date": "2025-01-02", "value": 2847.3 },
+        { "date": "2025-01-03", "value": 2895.4 },
+        { "date": "2025-01-04", "value": 2944.4 },
+        { "date": "2025-01-05", "value": 3000 }
+      ]
+    }
+  ]
+}
