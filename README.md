@@ -9,7 +9,12 @@ This repository contains all of my hackathon participations, both past and upcom
 Projects from Nuwe.io hackathons:
 
 - **[CaixaBank Frontend React Round 2](./nuwe.io/caixabank-frontend-react-round2)** - React-based frontend challenge
+
   - Client management application
+  - Modern React implementation
+
+- **[CaixaBank Frontend Carnival (Round 2)](./nuwe.io/caixabank-frontend-carnival)** - React-based frontend challenge
+
   - Modern React implementation
 
 - **[CaixaBank Fullstack Java+React Blockchain](./nuwe.io/caixabank-fullstack-javareact-blockchain)** - Fullstack application
@@ -19,14 +24,16 @@ Projects from Nuwe.io hackathons:
 
 ## Future Plans
 
-This repository will expand to include:
+This repository is constantly expanding to include:
+
 - Hackathon projects from other companies and organizations
 - A wider variety of technology stacks and challenges
-- Documentation of the learning process and outcomes
+- Empty `.zip` files at each project folder to provide starting point context
 
 ## Technologies
 
 The projects in this repository primarily use:
+
 - **Frontend**: React.js
 - **Backend**: Java
 - **Containerization**: Docker
