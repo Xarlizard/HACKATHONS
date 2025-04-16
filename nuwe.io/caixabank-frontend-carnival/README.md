@@ -1,3 +1,5 @@
+Submission completed by [xarlizard](https://github.com/xarlizard)
+
 # 💳 CaixaBank Frontend React - Round 2 🏦
 
 ### Category ➡️ Software

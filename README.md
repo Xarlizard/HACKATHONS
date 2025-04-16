@@ -17,10 +17,20 @@ Projects from Nuwe.io hackathons:
 
   - Modern React implementation
 
+- **[CaixaBank React Round 3](./nuwe.io/caixabank-react-round3)** - React-based frontend challenge
+
+  - Client management application
+  - Modern React implementation
+
 - **[CaixaBank Fullstack Java+React Blockchain](./nuwe.io/caixabank-fullstack-javareact-blockchain)** - Fullstack application
   - React frontend
   - Java backend with blockchain implementation
   - Docker containerization
+
+- **[Inditex Backend Java Logisticode](./nuwe.io/inditex-backend-java-logisticode-bis)** - Java-based backend challenge
+
+  - Server management application
+  - Modern Java implementation
 
 ## Future Plans
 

@@ -1,3 +1,5 @@
+Submission completed by [xarlizard](https://github.com/xarlizard)
+
 # 🏦 CaixaBank React-Java FullStack Challenge ☕️
 
 **Category:** Software  
